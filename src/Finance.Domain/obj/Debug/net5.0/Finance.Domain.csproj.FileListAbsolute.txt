@@ -1,0 +1,12 @@
+/Users/Rodrigo-Dev/Projects/System-Finance/src/finance.domain/bin/Debug/net5.0/Finance.domain.deps.json
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/bin/Debug/net5.0/Finance.domain.dll
+/Users/Rodrigo-Dev/Projects/System-Finance/src/finance.domain/bin/Debug/net5.0/ref/Finance.domain.dll
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/bin/Debug/net5.0/Finance.domain.pdb
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.csprojAssemblyReference.cache
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.AssemblyInfoInputs.cache
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.AssemblyInfo.cs
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.csproj.CoreCompileInputs.cache
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.dll
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/ref/Finance.domain.dll
+/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/Debug/net5.0/Finance.domain.pdb

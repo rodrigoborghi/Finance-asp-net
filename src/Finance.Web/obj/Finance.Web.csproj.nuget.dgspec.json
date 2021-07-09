@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/Finance.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/Finance.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/Finance.Application.csproj",
+        "projectName": "Finance.Application",
+        "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/Finance.Application.csproj",
+        "packagesPath": "/Users/Rodrigo-Dev/.nuget/packages/",
+        "outputPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Rodrigo-Dev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj": {
+                "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj"
+              },
+              "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/Finance.Infra.csproj": {
+                "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/Finance.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj",
+        "projectName": "Finance.Domain",
+        "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj",
+        "packagesPath": "/Users/Rodrigo-Dev/.nuget/packages/",
+        "outputPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Rodrigo-Dev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/Finance.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/Finance.Infra.csproj",
+        "projectName": "Finance.Infra",
+        "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/Finance.Infra.csproj",
+        "packagesPath": "/Users/Rodrigo-Dev/.nuget/packages/",
+        "outputPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Rodrigo-Dev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj": {
+                "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/Finance.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/Finance.Web.csproj",
+        "projectName": "Finance.Web",
+        "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/Finance.Web.csproj",
+        "packagesPath": "/Users/Rodrigo-Dev/.nuget/packages/",
+        "outputPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Rodrigo-Dev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/Finance.Application.csproj": {
+                "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Application/Finance.Application.csproj"
+              },
+              "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj": {
+                "projectPath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Domain/Finance.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
