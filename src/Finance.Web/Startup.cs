@@ -33,6 +33,10 @@ namespace Finance.Web
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Finance.Web", Version = "v1" });
             });
+            services.AddControllersWithViews()
+    .AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

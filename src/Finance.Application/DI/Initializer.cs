@@ -15,8 +15,11 @@ namespace Finance.Application.DI {
             services.AddDbContext<AppDbContext> (options => options.UseSqlServer(conection));
             services.AddScoped (typeof (IRepository<Ativo>), typeof (AtivoRepository));
             services.AddScoped (typeof (IRepository<>), typeof (Repository<>));
+            services.AddScoped (typeof (ICarteiraAtivosRepository), typeof(CarteiraAtivoRepository));
             services.AddScoped (typeof (AtivoService));
+            services.AddScoped (typeof (AtivosCarteiraService));
             services.AddScoped (typeof (IUnitOfWork), typeof (UnitOfWork));
+            
         }
     }
 }  

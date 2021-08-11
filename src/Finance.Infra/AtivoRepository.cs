@@ -24,6 +24,7 @@ namespace Finance.Infra.Repositories
             var query = _context.Set<Ativo>();
 
             return query.Any() ? query.ToList() : new List<Ativo>();
-        }
+        }   
+        
     }
 }

@@ -53,10 +53,9 @@ namespace Finance.Infra.Repositories
 
             // _context.Set<Categoria>().Add(categoria);  
 
-            var ativo = new Ativo("VVAR3", 1);
+            // var ativo = new Ativo("VVAR3", 1);
             // var ativo2 = new Ativo("ITSA4", 1);
             // var ativ3 = new Ativo("MEAL3", 1);
-            // ativo.Categoria = categoria;
 
             // var listAtivos = new List<Ativo>();
             // listAtivos.Add(ativo);
@@ -71,19 +70,16 @@ namespace Finance.Infra.Repositories
             //     Nome = "CLEAR"
             // };
 
-            // // _context.Set<Corretora>().Add(corretora); 
+            // _context.Set<Corretora>().Add(corretora); 
+
             //  var carteira = new Carteira
             // {
-            //   IdCliente = 2,
-            //   Corretora = new Corretora
-            // {
-            //      DataCriacao = DateTime.Now,
-            //     Nome = "CLEAR"
-            // },
-            //   DataCriacao = DateTime.Now
+            //   IdCliente = 1,
+            //          DataCriacao = DateTime.Now,
+            //          IdCorretora = 1
             // };
 
-            // _context.Set<Carteira>().Add(carteira); 
+            //  _context.Set<Carteira>().Add(carteira); 
 
             //    _context.SaveChanges();
 
@@ -91,7 +87,7 @@ namespace Finance.Infra.Repositories
             {
 new AtivosCarteira
 {
- CarteiraId = 6,
+ CarteiraId = 1,
  AtivoId = 2,
  DataCriacao = DateTime.Now,
  Quantidade = 995,
@@ -101,8 +97,8 @@ new AtivosCarteira
             },
             new AtivosCarteira
 {
- CarteiraId = 6,
- AtivoId = 1,
+ CarteiraId = 1,
+ AtivoId = 3,
  DataCriacao = DateTime.Now,
  Quantidade = 1100,
  Valor = 11.94m,
@@ -116,7 +112,7 @@ new AtivosCarteira
            _context.SaveChanges();
 
 
-            //_context.Set<TEntity>().Add(entity);   
+//             //_context.Set<TEntity>().Add(entity);   
         }
     }
 }

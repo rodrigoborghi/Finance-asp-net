@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LGbIcSx/9AenBchvMsIpDHMMYBUF3B9doAqH8DxI4Y9zakzQbfH4ZqxE8QoCI4CdlyFiNqR5FN9ILxp3HWa/0A==",
+  "dgSpecHash": "llp3mGwjZSdMtkeriqWdqG2Nlh+pj8VoGsMAtLa4/62vCV9p7D6qHpkTe18IpCk7c+aLap46OOSiFSENP24j2g==",
   "success": true,
   "projectFilePath": "/Users/Rodrigo-Dev/Projects/System-Finance/src/Finance.Web/Finance.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/Rodrigo-Dev/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.8/microsoft.aspnetcore.jsonpatch.5.0.8.nupkg.sha512",
+    "/Users/Rodrigo-Dev/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.8/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.8.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -31,6 +33,8 @@
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "/Users/Rodrigo-Dev/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/Rodrigo-Dev/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/Rodrigo-Dev/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
